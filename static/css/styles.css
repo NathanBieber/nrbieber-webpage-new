@@ -1,0 +1,117 @@
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Reset default margin and padding */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  dl,
+  figure,
+  blockquote,
+  fieldset,
+  legend {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Remove list styles */
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  /* Basic typography */
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Links */
+  a {
+    color: #007bff; /* Default link color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Responsive images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive container */
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Adjust max-width as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding to the sides */
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    /* Example of responsive layout adjustments */
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Accessibility */
+  /* Provide sufficient color contrast */
+  body,
+  button,
+  input,
+  select,
+  textarea {
+    color: #333; /* Default text color */
+    background-color: #fff; /* Default background color */
+  }
+  
+  /* Add focus styles */
+  a,
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  select,
+  textarea {
+    outline: none;
+  }
+  
+  a:focus,
+  button:focus,
+  input[type="button"]:focus,
+  input[type="reset"]:focus,
+  input[type="submit"]:focus,
+  select:focus,
+  textarea:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Example focus style */
+  }
+  

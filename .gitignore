@@ -1,0 +1,19 @@
+# IDE/Editor files
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+.DS_Store
+*.log
+
+# Environment-specific files
+.env
+*.env

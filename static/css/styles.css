@@ -28,7 +28,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: black; /* Change background color to black */
+  color: #fff; /* Text color set to white for better contrast */
+  background-color: black; /* Background color set to black */
 }
 
 /* Remove list styles */
@@ -91,8 +92,7 @@ button,
 input,
 select,
 textarea {
-  color: #333; /* Default text color */
-  background-color: #fff; /* Default background color */
+  background-color: #000; /* Background color set to black */
 }
 
 /* Add focus styles */
@@ -113,5 +113,5 @@ input[type="reset"]:focus,
 input[type="submit"]:focus,
 select:focus,
 textarea:focus {
-  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Example focus style */
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5); /* Example focus style */
 }
